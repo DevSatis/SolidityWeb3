@@ -24,7 +24,7 @@ contract TodoList{
     bool completed
   );
 
-  constructor() public {
+  constructor() public{
     createTask("Check out at my git Account");
   }
 
